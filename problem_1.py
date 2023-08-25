@@ -36,16 +36,16 @@ Valores aceitos.
 
 
 def main():
-  a = int(input(f"Digite o valor A: ")) 
-  b = int(input(f"Digite o valor B: "))
-  c = int(input(f"Digite o valor C: "))
-  d = int(input(f"Digite o valor D: "))
-
-  if b > c and d > a and (c + d) > (a + b) and c > 0
-and d > 0 and a %2 == 0:
-     print("Valores aceitos.")
-else:
-  print("Valores recusado.")
+    a = int(input("Digite o valor A: ")) 
+    b = int(input("Digite o valor B: "))
+    c = int(input("Digite o valor C: "))
+    d = int(input("Digite o valor D: "))
+  
+    if b > c and d > a and (c + d) > (a + b) and c > 0 and d > 0 and a %2 == 0:
+       print("Valores aceitos.")
+     
+    else:
+       print("Valores recusados.")
     
 
 
